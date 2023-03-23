@@ -240,3 +240,5 @@ require (
 	github.com/xi2/xz v0.0.0-20171230120015-48954b6210f8 // indirect
 	gopkg.in/warnings.v0 v0.1.2 // indirect
 )
+
+replace github.com/projectdiscovery/nuclei/v2 => github.com/vishnusomank/nuclei/v2 v2.0.0-20230317165130-f4b0625d1491

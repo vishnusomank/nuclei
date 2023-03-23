@@ -36,6 +36,9 @@ var (
 )
 
 func main() {
+
+	gologger.Info().Msg("simple message")
+
 	if err := runner.ConfigureOptions(); err != nil {
 		gologger.Fatal().Msgf("Could not initialize options: %s\n", err)
 	}
